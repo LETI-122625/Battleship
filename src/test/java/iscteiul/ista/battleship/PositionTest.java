@@ -69,7 +69,7 @@ class PositionTest {
     @DisplayName("Shoot marca a posição como atingida")
     void testShoot() {
         Position p = new Position(3, 3);
-        assertFalse(p.isHit()); // default
+        assertFalse(p.isHit()); // default1
         p.shoot();
         assertTrue(p.isHit());
     }
