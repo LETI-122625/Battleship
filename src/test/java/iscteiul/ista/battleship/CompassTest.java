@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Testes da enum Compass")
 class CompassTest {
-
+//a
     @Test
     @DisplayName("Cada direção deve retornar o char correto via getDirection()")
     void testGetDirection() {
